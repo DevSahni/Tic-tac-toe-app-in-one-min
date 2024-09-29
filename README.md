@@ -1,1 +1,1 @@
-# Tic-tac-toe-app-Using-Chat-GPT-in-one-min
+# Tic-tac-toe-app-in-one-min
