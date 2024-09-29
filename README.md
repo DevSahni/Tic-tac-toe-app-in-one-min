@@ -11,9 +11,6 @@ Welcome to **Tic-Tac-Toe**, a classic game implemented using HTML, CSS, and Java
 - Play Again Modal: A clean modal pops up at the end of the game, allowing users to easily play again.
 - Interactive Game Play: Smooth transitions and real-time updates ensure a seamless user experience.
 
-# 🖼️ Preview
-
-![Game Preview]("C:\Users\deven\Downloads\tictac.png")
 
 # 🚀 How to Play
 
