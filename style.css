@@ -1,0 +1,133 @@
+/* Overall Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #e9f5ff, #ffccf2);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+/* Game Grid */
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+}
+
+.cell {
+    background-color: #fff;
+    border: 3px solid #333;
+    border-radius: 10px;
+    font-size: calc(5vw + 10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.cell:hover {
+    background-color: #ffde59; /* Light yellow on hover */
+    transform: scale(1.1);
+}
+
+/* Result and Modal Styling */
+#result {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#modalMessage {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Play Again Button Styling */
+.play-again-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #28a745; /* Green background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.play-again-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05);
+}
+
+/* Mobile and Smaller Screens */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .cell {
+        font-size: calc(8vw + 10px);
+    }
+
+    #result {
+        font-size: 1.2rem;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+}
