@@ -13,7 +13,7 @@ Welcome to **Tic-Tac-Toe**, a classic game implemented using HTML, CSS, and Java
 
 # 🖼️ Preview
 
-![Game Preview](https://devapp.tiiny.site/)
+![Game Preview]("C:\Users\deven\Downloads\tictac.png")
 
 # 🚀 How to Play
 
